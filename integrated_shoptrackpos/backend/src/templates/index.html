@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="{% static 'assets/favicon.ico' %}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopTrackPOS</title>
+    <link rel="stylesheet" href="{% static 'assets/index-89872eaf.css' %}" />
+    <script>
+      window.DJANGO_STATIC_URL = "{% static '' %}";
+      window.API_BASE_URL = window.location.origin;
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" crossorigin src="{% static 'assets/index-b6764965.js' %}"></script>
+  </body>
+</html> 
